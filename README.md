@@ -33,10 +33,8 @@ Investors face challenges in forecasting stock price movements due to market vol
   - Technical indicators: Moving Averages (EMA, MA), RSI, Bollinger Bands, etc.
 - **Target:** A binary indicator (0 for downward movement, 1 for upward movement).
 
-> **Image Recommendation:**  
-> Display a sample snapshot of the dataset or an annotated diagram showing key features and the target variable.
+![Snapshot of the Data](Images/snapshotofthedata.PNG)
 
----
 
 ## Data Preprocessing & Feature Engineering
 
@@ -49,16 +47,23 @@ We applied rigorous preprocessing steps to ensure data quality:
 ## Exploratory Data Analysis (EDA)
 
 We performed extensive EDA to understand the data patterns:
+
 - **Univariate Analysis:**  
   - Histograms and density plots of closing prices, trading volumes, and technical indicators.
-- **Bivariate Analysis:**  
-  - Scatter plots and box plots examining relationships between trading volume and price, and between technical signals and subsequent price changes.
-- **Multivariate Analysis:**  
+ 
+    ![Volume Univariate Analysis](Images/volumeunivariate.PNG)
+    ![Closing Prices](Images/closingprices.PNG)
+    
+- **Bivariate Analysis:**
+-  Scatter plots and box plots examining relationships between trading volume and price, and between technical signals and subsequent price changes.
+-  
+![Bivariate Analysis](Images/priceandvolume.PNG)
+    
+- **Multivariate Analysis:**
+- 
   - Correlation heatmaps and pairplots that reveal complex interactions among features.
-
-> **Image Recommendation:**  
-> Include screenshots of key plots such as a correlation heatmap, a time series chart of prices, and a scatter plot of volume vs. price.
-
+  - 
+![Multivariate Analysis](Images/multivariate.PNG)
 ---
 
 ## Modeling Approach
@@ -75,10 +80,8 @@ We experimented with several models:
   
 Based on our results, the basic logistic regression model currently offers the best balance between accuracy, generalization, and interpretability.
 
-> **Image Recommendation:**  
-> Provide a comparative chart (e.g., a bar chart) summarizing accuracy and key metrics for each model.
+![Accuracy of the Models](Images/modelresults.PNG)
 
----
 
 ## Model Evaluation
 
@@ -94,10 +97,8 @@ Based on our results, the basic logistic regression model currently offers the b
 - **Accuracy:** ~74.59%
 - **Metrics:** Lower performance overall compared to logistic regression and pruned decision trees.
 
-> **Image Recommendation:**  
-> Include visualizations such as confusion matrices, classification reports, and feature importance plots.
-
----
+![Model comparison](Images/modelresults2.PNG)
+![Feature importance](Images/featureimportance.PNG
 
 ## Future Work & Improvements
 
@@ -110,10 +111,6 @@ Based on our results, the basic logistic regression model currently offers the b
 - **Optimization:**  
   - Fine-tune hyperparameters further and explore additional techniques for class imbalance resolution (e.g., SMOTE).
 
-> **Image Recommendation:**  
-> Use a roadmap or timeline graphic to illustrate planned future enhancements and next steps.
-
----
 
 ## How to Run the Project
 
