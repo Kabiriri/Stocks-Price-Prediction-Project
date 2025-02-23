@@ -6,10 +6,9 @@ This project leverages historical stock market data and machine learning techniq
 
 Our goal is to build a robust classification model that distinguishes between upward and downward price movements, thereby providing actionable insights for investors.
 
-> **Image Recommendation:**  
-> Use a high-quality banner image depicting stock charts or a busy trading floor (e.g., an image from Unsplash such as [this one](https://unsplash.com/photos/nqJzHTT9xG8)) to set a professional tone.
-
----
+![Professional Trading Floor](Images/image stocks.PNG
+)
+Images/image stocks.PNG
 
 ## Business Problem & Objectives
 
