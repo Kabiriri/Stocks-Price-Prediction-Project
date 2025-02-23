@@ -98,7 +98,7 @@ Based on our results, the basic logistic regression model currently offers the b
 - **Metrics:** Lower performance overall compared to logistic regression and pruned decision trees.
 
 ![Model comparison](Images/modelresults2.PNG)
-![Feature importance](Images/featureimportance.PNG
+![Feature importance](Images/featureimportance.PNG)
 
 ## Future Work & Improvements
 
